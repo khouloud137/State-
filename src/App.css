@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn button {
   color: white;
+  padding: 5px 25px;
+  background-color: #787878;
+  border-radius: 10px;
+  margin-left: 550px;
+  margin-top: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.card {
+ margin-top: 50px; 
+  margin-left: 550px;
+  width: 100px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-text {
+  font-size: 600;
+  font-weight: bold;
+}
+.card-img {
+  height: 450px;
+}
+.card-title {
+  font-size: xx-large;
+  color: #712cf9;
+  font-weight: bold;
+}
+.persone {
+  background-image: url("https://cdnuploads.aa.com.tr/uploads/Contents/2023/10/17/thumbs_b_c_c13fc97c2acba1ead85eab4ee02d5b7b.jpg?v=195315");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
